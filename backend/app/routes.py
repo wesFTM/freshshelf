@@ -15,7 +15,7 @@ from app.store import NotFound, load_items, new_id, to_view, update_items
 router = APIRouter()
 
 
-ef _field_errors(errors: dict[str, str]) -> JSONResponse:
+def _field_errors(errors: dict[str, str]) -> JSONResponse:
     return JSONResponse(status_code=400, content={"fieldErrors": errors})
 
 
