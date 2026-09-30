@@ -8,3 +8,5 @@ frontend/.next/
 
 backend/data/items.json
 backend/data/*.tmp
+
+.DS_Store
